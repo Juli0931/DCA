@@ -1,0 +1,26 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+section img{
+    width: 60px;
+    height: 60px;
+    margin: 0 5px 0 5px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: rgba(145, 145, 145, 0.497);
+}
+
+section p{
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+    font-family: Helvetica;
+}
