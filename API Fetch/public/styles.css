@@ -1,0 +1,22 @@
+*{
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600");
+    background-size: cover;
+}
+
+.Nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.Nav img{
+    width: 200px;
+}
+
+app-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2% 5%;
+    justify-content: center;
+}
